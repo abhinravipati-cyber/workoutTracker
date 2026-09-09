@@ -7,6 +7,9 @@ public class Split {
 	
 	private String _name;
 	
+	// creates an arraylist of workout days, in the split class because split objects will each have a set of workout days
+	// use an array list because arraylists can automatically resize as elements are added and removed, so user can choose
+	// dayList is private because we want only Split.java to be able to work with the dayList directly, encapsulation.
 	private ArrayList<WorkoutDay> dayList = new ArrayList<>();
 	
 	// populates the split's ArrayList of days with all the different workout days
