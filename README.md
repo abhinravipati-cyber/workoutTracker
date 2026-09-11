@@ -1,4 +1,4 @@
-# Workout Tracker
+# TrackLifts
 
 A Java application for creating customizable workout splits and logging completed workouts.
 
